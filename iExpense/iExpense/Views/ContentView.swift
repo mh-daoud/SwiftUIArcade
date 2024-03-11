@@ -8,15 +8,30 @@ import Observation
 import SwiftUI
 
 struct ContentView: View {
-    @State private var user : User = .init()
+    @State private var expenses = Expenses()
+
     var body: some View {
-        VStack {
-            Text("first name \(user.firstName) and lastname \(user.lastName)")
-            
-            TextField("Enter first name", text: $user.firstName)
-            TextField("Enter last name", text: $user.lastName)
+       NavigationStack {
+            List {
+                ForEach(expenses.items, id: \.name) { item in
+                    Text("name \(item.name)")
+                }
+                .onDelete(perform: { indexSet in
+                    deleteExpenses(items: indexSet)
+                })
+            }
+            .navigationTitle("iExpense")
+            .toolbar {
+                Button("Add expense item", systemImage: "plus") {
+                    expenses.items.append(.init(name: "Example", type: "Personal", amount: 10))
+                }
+            }
         }
-        .padding()
+    }
+    
+    
+    func deleteExpenses(items: IndexSet) {
+        expenses.items.remove(atOffsets: items)
     }
 }
 
@@ -25,8 +40,3 @@ struct ContentView: View {
 }
 
 
-@Observable
-class User {
-    var firstName: String = ""
-    var lastName: String = ""
-}
