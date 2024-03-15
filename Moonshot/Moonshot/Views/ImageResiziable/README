@@ -1,0 +1,18 @@
+- When you include static images in your assets collection xCode will auto generate enums for you to use, to avoid spelling misake
+Image(.image)
+
+- To resize an image you need to add Modifer resizable and to specifiy conent mode is it scalledToFill or scalledToFit (both as modifer as well)
+
+Image(.image)
+.resizable()
+.scaledToFit()
+
+
+- To speicify relative width or height for example I want my Image to be 80% of the parent width we can do this using a modifer called containerRelativeFrame this should return a value to use for the specified axies for example I want my Image WIDTH to be 80% of parent width we can use this
+Image(.image)
+.containerRelativeFrame(.horizontal) { size,_ in
+size * 0.8
+}
+
+
+please note this return a CGFloat to be applied to the image itself, so Image().frame() will be replaced with the above 
