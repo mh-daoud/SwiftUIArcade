@@ -9,29 +9,34 @@ import SwiftUI
 
 struct ContentView: View {
     @State private var expenses = Expenses()
-
+    @State private var showingAddExpense = false
+    
     var body: some View {
-       NavigationStack {
+        NavigationStack {
             List {
-                ForEach(expenses.items, id: \.name) { item in
-                    Text("name \(item.name)")
+                Section("Personal expenses") {
+                    ListExpenseItemView(items: expenses.items.filter{$0.type == "Personal"}, onDelete: deleteExpenses)
                 }
-                .onDelete(perform: { indexSet in
-                    deleteExpenses(items: indexSet)
-                })
+                Section("Business expenses") {
+                    ListExpenseItemView(items: expenses.items.filter{$0.type == "Business"}, onDelete: deleteExpenses)
+                }
+               
             }
             .navigationTitle("iExpense")
             .toolbar {
                 Button("Add expense item", systemImage: "plus") {
-                    expenses.items.append(.init(name: "Example", type: "Personal", amount: 10))
+                    showingAddExpense = true
                 }
             }
+            .sheet(isPresented: $showingAddExpense, content: {
+                AddView(expenses: expenses)
+            })
         }
     }
     
     
-    func deleteExpenses(items: IndexSet) {
-        expenses.items.remove(atOffsets: items)
+    func deleteExpenses(itemId: UUID) {
+        expenses.items.removeAll { $0.id == itemId }
     }
 }
 
