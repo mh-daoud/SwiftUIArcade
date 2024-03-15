@@ -1,0 +1,13 @@
+
+Our default values are sensible, so it looks great out of the box – go ahead and try it now!
+
+Chances are you'll see things don't quite work right: no matter which star rating you press, it will select 5 stars!
+
+I've seen this problem hit countless hundreds of people, no matter how much experience they have. The problem is that when we have rows inside a form or a list, SwiftUI likes to assume the rows themselves are tappable. This makes selection easier for users, because they can tap anywhere in a row to trigger the button inside it.
+
+In our case we have multiple buttons, so SwiftUI is tapping them all in order – rating gets set to 1, then 2, then 3, 4, and 5, which is why it ends up at 5 no matter what.
+
+We can disable the whole "tap the row to trigger its buttons" behavior with an extra modifier attached to the whole HStack:
+
+.buttonStyle(.plain)
+That makes SwiftUI treat each button individually, so everything works as planned. And the result is much nicer to use: there’s no need to tap into a detail view with a picker here, because star ratings are more natural and more common.
