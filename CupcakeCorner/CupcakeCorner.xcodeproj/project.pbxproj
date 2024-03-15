@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		045340812BA4B47D00E4310E /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340802BA4B47D00E4310E /* CupcakeCornerApp.swift */; };
+		045340832BA4B47D00E4310E /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340822BA4B47D00E4310E /* AlbumView.swift */; };
+		045340852BA4B47F00E4310E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045340842BA4B47F00E4310E /* Assets.xcassets */; };
+		045340882BA4B47F00E4310E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 045340872BA4B47F00E4310E /* Preview Assets.xcassets */; };
+		045340922BA4B4DD00E4310E /* ResultModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340912BA4B4DD00E4310E /* ResultModel.swift */; };
+		045340952BA4B86C00E4310E /* FormValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340942BA4B86C00E4310E /* FormValidation.swift */; };
+		045340982BA4B93C00E4310E /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340972BA4B93C00E4310E /* User.swift */; };
+		0453409A2BA4B94F00E4310E /* ObservableCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340992BA4B94F00E4310E /* ObservableCodable.swift */; };
+		0453409E2BA4BB7E00E4310E /* PlaceOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453409D2BA4BB7E00E4310E /* PlaceOrderView.swift */; };
+		045340A02BA4BB9400E4310E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0453409F2BA4BB9400E4310E /* Order.swift */; };
+		045340A32BA4BE3200E4310E /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340A22BA4BE3200E4310E /* AddressView.swift */; };
+		045340A62BA4C00900E4310E /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045340A52BA4C00900E4310E /* CheckoutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0453407D2BA4B47D00E4310E /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		045340802BA4B47D00E4310E /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
+		045340822BA4B47D00E4310E /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		045340842BA4B47F00E4310E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		045340872BA4B47F00E4310E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		045340912BA4B4DD00E4310E /* ResultModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultModel.swift; sourceTree = "<group>"; };
+		045340942BA4B86C00E4310E /* FormValidation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidation.swift; sourceTree = "<group>"; };
+		045340972BA4B93C00E4310E /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		045340992BA4B94F00E4310E /* ObservableCodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableCodable.swift; sourceTree = "<group>"; };
+		0453409D2BA4BB7E00E4310E /* PlaceOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrderView.swift; sourceTree = "<group>"; };
+		0453409F2BA4BB9400E4310E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		045340A22BA4BE3200E4310E /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		045340A52BA4C00900E4310E /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0453407A2BA4B47D00E4310E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		045340742BA4B47D00E4310E = {
+			isa = PBXGroup;
+			children = (
+				0453407F2BA4B47D00E4310E /* CupcakeCorner */,
+				0453407E2BA4B47D00E4310E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0453407E2BA4B47D00E4310E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0453407D2BA4B47D00E4310E /* CupcakeCorner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0453407F2BA4B47D00E4310E /* CupcakeCorner */ = {
+			isa = PBXGroup;
+			children = (
+				045340802BA4B47D00E4310E /* CupcakeCornerApp.swift */,
+				0453408F2BA4B4C500E4310E /* Views */,
+				0453408E2BA4B4BF00E4310E /* Models */,
+				045340902BA4B4C900E4310E /* Files */,
+				045340862BA4B47F00E4310E /* Preview Content */,
+			);
+			path = CupcakeCorner;
+			sourceTree = "<group>";
+		};
+		045340862BA4B47F00E4310E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				045340872BA4B47F00E4310E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0453408E2BA4B4BF00E4310E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				045340912BA4B4DD00E4310E /* ResultModel.swift */,
+				045340972BA4B93C00E4310E /* User.swift */,
+				0453409F2BA4BB9400E4310E /* Order.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0453408F2BA4B4C500E4310E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				045340A42BA4C00300E4310E /* CheckoutView */,
+				045340A12BA4BE2A00E4310E /* AddressView */,
+				0453409C2BA4BB6F00E4310E /* PlaceOrderView */,
+				0453409B2BA4BB4B00E4310E /* AlbumView */,
+				045340962BA4B92A00E4310E /* ObservableCodable */,
+				045340932BA4B86000E4310E /* FormValidation */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		045340902BA4B4C900E4310E /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				045340842BA4B47F00E4310E /* Assets.xcassets */,
+			);
+			name = Files;
+			sourceTree = "<group>";
+		};
+		045340932BA4B86000E4310E /* FormValidation */ = {
+			isa = PBXGroup;
+			children = (
+				045340942BA4B86C00E4310E /* FormValidation.swift */,
+			);
+			path = FormValidation;
+			sourceTree = "<group>";
+		};
+		045340962BA4B92A00E4310E /* ObservableCodable */ = {
+			isa = PBXGroup;
+			children = (
+				045340992BA4B94F00E4310E /* ObservableCodable.swift */,
+			);
+			path = ObservableCodable;
+			sourceTree = "<group>";
+		};
+		0453409B2BA4BB4B00E4310E /* AlbumView */ = {
+			isa = PBXGroup;
+			children = (
+				045340822BA4B47D00E4310E /* AlbumView.swift */,
+			);
+			path = AlbumView;
+			sourceTree = "<group>";
+		};
+		0453409C2BA4BB6F00E4310E /* PlaceOrderView */ = {
+			isa = PBXGroup;
+			children = (
+				0453409D2BA4BB7E00E4310E /* PlaceOrderView.swift */,
+			);
+			path = PlaceOrderView;
+			sourceTree = "<group>";
+		};
+		045340A12BA4BE2A00E4310E /* AddressView */ = {
+			isa = PBXGroup;
+			children = (
+				045340A22BA4BE3200E4310E /* AddressView.swift */,
+			);
+			path = AddressView;
+			sourceTree = "<group>";
+		};
+		045340A42BA4C00300E4310E /* CheckoutView */ = {
+			isa = PBXGroup;
+			children = (
+				045340A52BA4C00900E4310E /* CheckoutView.swift */,
+			);
+			path = CheckoutView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0453407C2BA4B47D00E4310E /* CupcakeCorner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0453408B2BA4B47F00E4310E /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
+			buildPhases = (
+				045340792BA4B47D00E4310E /* Sources */,
+				0453407A2BA4B47D00E4310E /* Frameworks */,
+				0453407B2BA4B47D00E4310E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CupcakeCorner;
+			productName = CupcakeCorner;
+			productReference = 0453407D2BA4B47D00E4310E /* CupcakeCorner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		045340752BA4B47D00E4310E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0453407C2BA4B47D00E4310E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 045340782BA4B47D00E4310E /* Build configuration list for PBXProject "CupcakeCorner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 045340742BA4B47D00E4310E;
+			productRefGroup = 0453407E2BA4B47D00E4310E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0453407C2BA4B47D00E4310E /* CupcakeCorner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0453407B2BA4B47D00E4310E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045340882BA4B47F00E4310E /* Preview Assets.xcassets in Resources */,
+				045340852BA4B47F00E4310E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		045340792BA4B47D00E4310E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				045340832BA4B47D00E4310E /* AlbumView.swift in Sources */,
+				045340812BA4B47D00E4310E /* CupcakeCornerApp.swift in Sources */,
+				045340A62BA4C00900E4310E /* CheckoutView.swift in Sources */,
+				045340A02BA4BB9400E4310E /* Order.swift in Sources */,
+				045340952BA4B86C00E4310E /* FormValidation.swift in Sources */,
+				0453409A2BA4B94F00E4310E /* ObservableCodable.swift in Sources */,
+				045340A32BA4BE3200E4310E /* AddressView.swift in Sources */,
+				045340982BA4B93C00E4310E /* User.swift in Sources */,
+				045340922BA4B4DD00E4310E /* ResultModel.swift in Sources */,
+				0453409E2BA4BB7E00E4310E /* PlaceOrderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		045340892BA4B47F00E4310E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0453408A2BA4B47F00E4310E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0453408C2BA4B47F00E4310E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = LJ5NJ37RFB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tedom.CupcakeCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0453408D2BA4B47F00E4310E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_TEAM = LJ5NJ37RFB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tedom.CupcakeCorner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		045340782BA4B47D00E4310E /* Build configuration list for PBXProject "CupcakeCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				045340892BA4B47F00E4310E /* Debug */,
+				0453408A2BA4B47F00E4310E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0453408B2BA4B47F00E4310E /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0453408C2BA4B47F00E4310E /* Debug */,
+				0453408D2BA4B47F00E4310E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 045340752BA4B47D00E4310E /* Project object */;
+}
