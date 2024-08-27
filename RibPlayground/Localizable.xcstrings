@@ -1,0 +1,56 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Authenticating..." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ المصادقة..."
+          }
+        }
+      }
+    },
+    "Face ID or passcode is not set up" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم يتم إعداد Face ID أو رمز المرور"
+          }
+        }
+      }
+    },
+    "Got it" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "موافق"
+          }
+        }
+      }
+    },
+    "Login using Face ID" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تسجيل الدخول باستخدام Face ID"
+          }
+        }
+      }
+    },
+    "Set up Face ID or passcode in your SAIB profile settings and try again." : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قم بإعداد Face ID أو رمز المرور في إعدادات ملفك الشخصي في تطبيق البنك السعودي للاستثمار وحاول مرة أخرى."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

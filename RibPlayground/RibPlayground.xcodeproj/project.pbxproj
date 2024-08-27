@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B21712332C7224EF00A775F5 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21712322C7224EF00A775F5 /* CardService.swift */; };
+		B21712352C722FF300A775F5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = B21712342C722FF300A775F5 /* Card.swift */; };
+		B2391ACC2C6CA56C004F11C4 /* RibPlaygroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391ACB2C6CA56C004F11C4 /* RibPlaygroundApp.swift */; };
+		B2391ACE2C6CA56C004F11C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391ACD2C6CA56C004F11C4 /* ContentView.swift */; };
+		B2391AD02C6CA56D004F11C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2391ACF2C6CA56D004F11C4 /* Assets.xcassets */; };
+		B2391AD32C6CA56D004F11C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2391AD22C6CA56D004F11C4 /* Preview Assets.xcassets */; };
+		B2391ADB2C6CAA4D004F11C4 /* LoginWithFaceIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391ADA2C6CAA4D004F11C4 /* LoginWithFaceIdView.swift */; };
+		B2391ADD2C6CAC63004F11C4 /* EnableFaceIdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391ADC2C6CAC63004F11C4 /* EnableFaceIdView.swift */; };
+		B2391AE22C6CD2FE004F11C4 /* APIEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AE12C6CD2FE004F11C4 /* APIEndpoint.swift */; };
+		B2391AE52C6CD56E004F11C4 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AE42C6CD56E004F11C4 /* NetworkManager.swift */; };
+		B2391AE72C6CD614004F11C4 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AE62C6CD614004F11C4 /* APIError.swift */; };
+		B2391AEA2C6CE36E004F11C4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AE92C6CE36E004F11C4 /* AuthService.swift */; };
+		B2391AF12C6CEAFD004F11C4 /* Info-Prod.plist in Resources */ = {isa = PBXBuildFile; fileRef = B2391AF02C6CEAFD004F11C4 /* Info-Prod.plist */; };
+		B2391AF62C6CF29E004F11C4 /* KeychainUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AF52C6CF29E004F11C4 /* KeychainUtil.swift */; };
+		B2391AF92C6DFB67004F11C4 /* Device+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AF82C6DFB67004F11C4 /* Device+Utils.swift */; };
+		B2391AFB2C6E0EEA004F11C4 /* Bundle+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AFA2C6E0EEA004F11C4 /* Bundle+Utils.swift */; };
+		B2391AFE2C6E0FDA004F11C4 /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AFD2C6E0FDA004F11C4 /* Auth.swift */; };
+		B2391B002C6E2289004F11C4 /* WalletExtensionUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2391AFF2C6E2289004F11C4 /* WalletExtensionUser.swift */; };
+		B279B68E2C7DC7AD0088B312 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B279B68D2C7DC7AD0088B312 /* LoadingView.swift */; };
+		B279B6942C7DF5390088B312 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = B279B6932C7DF5390088B312 /* Localizable.xcstrings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B21712322C7224EF00A775F5 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		B21712342C722FF300A775F5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		B2391AC82C6CA56C004F11C4 /* RibPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RibPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2391ACB2C6CA56C004F11C4 /* RibPlaygroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RibPlaygroundApp.swift; sourceTree = "<group>"; };
+		B2391ACD2C6CA56C004F11C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B2391ACF2C6CA56D004F11C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2391AD22C6CA56D004F11C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B2391ADA2C6CAA4D004F11C4 /* LoginWithFaceIdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWithFaceIdView.swift; sourceTree = "<group>"; };
+		B2391ADC2C6CAC63004F11C4 /* EnableFaceIdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableFaceIdView.swift; sourceTree = "<group>"; };
+		B2391AE12C6CD2FE004F11C4 /* APIEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoint.swift; sourceTree = "<group>"; };
+		B2391AE42C6CD56E004F11C4 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B2391AE62C6CD614004F11C4 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		B2391AE92C6CE36E004F11C4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		B2391AEE2C6CE678004F11C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B2391AF02C6CEAFD004F11C4 /* Info-Prod.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Prod.plist"; sourceTree = "<group>"; };
+		B2391AF52C6CF29E004F11C4 /* KeychainUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainUtil.swift; sourceTree = "<group>"; };
+		B2391AF72C6CFE4C004F11C4 /* RibPlayground.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RibPlayground.entitlements; sourceTree = "<group>"; };
+		B2391AF82C6DFB67004F11C4 /* Device+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Device+Utils.swift"; sourceTree = "<group>"; };
+		B2391AFA2C6E0EEA004F11C4 /* Bundle+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Utils.swift"; sourceTree = "<group>"; };
+		B2391AFD2C6E0FDA004F11C4 /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		B2391AFF2C6E2289004F11C4 /* WalletExtensionUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletExtensionUser.swift; sourceTree = "<group>"; };
+		B279B68D2C7DC7AD0088B312 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		B279B6932C7DF5390088B312 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2391AC52C6CA56C004F11C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2391ABF2C6CA56C004F11C4 = {
+			isa = PBXGroup;
+			children = (
+				B279B6932C7DF5390088B312 /* Localizable.xcstrings */,
+				B2391ACA2C6CA56C004F11C4 /* RibPlayground */,
+				B2391AC92C6CA56C004F11C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2391AC92C6CA56C004F11C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AC82C6CA56C004F11C4 /* RibPlayground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2391ACA2C6CA56C004F11C4 /* RibPlayground */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AF72C6CFE4C004F11C4 /* RibPlayground.entitlements */,
+				B2391AF22C6CF273004F11C4 /* Utils */,
+				B2391AEE2C6CE678004F11C4 /* Info.plist */,
+				B2391AF02C6CEAFD004F11C4 /* Info-Prod.plist */,
+				B2391AE02C6CD2CB004F11C4 /* Networking */,
+				B2391AD92C6CAA31004F11C4 /* Views */,
+				B2391ACB2C6CA56C004F11C4 /* RibPlaygroundApp.swift */,
+				B2391ACD2C6CA56C004F11C4 /* ContentView.swift */,
+				B2391ACF2C6CA56D004F11C4 /* Assets.xcassets */,
+				B2391AD12C6CA56D004F11C4 /* Preview Content */,
+			);
+			path = RibPlayground;
+			sourceTree = "<group>";
+		};
+		B2391AD12C6CA56D004F11C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AD22C6CA56D004F11C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2391AD92C6CAA31004F11C4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B2391ADA2C6CAA4D004F11C4 /* LoginWithFaceIdView.swift */,
+				B2391ADC2C6CAC63004F11C4 /* EnableFaceIdView.swift */,
+				B279B68D2C7DC7AD0088B312 /* LoadingView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B2391AE02C6CD2CB004F11C4 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AFC2C6E0FCE004F11C4 /* Models */,
+				B2391AE32C6CD4A0004F11C4 /* API */,
+				B2391AE82C6CE361004F11C4 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B2391AE32C6CD4A0004F11C4 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AE12C6CD2FE004F11C4 /* APIEndpoint.swift */,
+				B2391AE42C6CD56E004F11C4 /* NetworkManager.swift */,
+				B2391AE62C6CD614004F11C4 /* APIError.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		B2391AE82C6CE361004F11C4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AE92C6CE36E004F11C4 /* AuthService.swift */,
+				B21712322C7224EF00A775F5 /* CardService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B2391AF22C6CF273004F11C4 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AF52C6CF29E004F11C4 /* KeychainUtil.swift */,
+				B2391AF82C6DFB67004F11C4 /* Device+Utils.swift */,
+				B2391AFA2C6E0EEA004F11C4 /* Bundle+Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B2391AFC2C6E0FCE004F11C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2391AFD2C6E0FDA004F11C4 /* Auth.swift */,
+				B2391AFF2C6E2289004F11C4 /* WalletExtensionUser.swift */,
+				B21712342C722FF300A775F5 /* Card.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2391AC72C6CA56C004F11C4 /* RibPlayground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2391AD62C6CA56D004F11C4 /* Build configuration list for PBXNativeTarget "RibPlayground" */;
+			buildPhases = (
+				B2391AC42C6CA56C004F11C4 /* Sources */,
+				B2391AC52C6CA56C004F11C4 /* Frameworks */,
+				B2391AC62C6CA56C004F11C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RibPlayground;
+			productName = RibPlayground;
+			productReference = B2391AC82C6CA56C004F11C4 /* RibPlayground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2391AC02C6CA56C004F11C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B2391AC72C6CA56C004F11C4 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = B2391AC32C6CA56C004F11C4 /* Build configuration list for PBXProject "RibPlayground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = B2391ABF2C6CA56C004F11C4;
+			productRefGroup = B2391AC92C6CA56C004F11C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2391AC72C6CA56C004F11C4 /* RibPlayground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2391AC62C6CA56C004F11C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2391AF12C6CEAFD004F11C4 /* Info-Prod.plist in Resources */,
+				B2391AD32C6CA56D004F11C4 /* Preview Assets.xcassets in Resources */,
+				B279B6942C7DF5390088B312 /* Localizable.xcstrings in Resources */,
+				B2391AD02C6CA56D004F11C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2391AC42C6CA56C004F11C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2391AFE2C6E0FDA004F11C4 /* Auth.swift in Sources */,
+				B21712332C7224EF00A775F5 /* CardService.swift in Sources */,
+				B2391AF62C6CF29E004F11C4 /* KeychainUtil.swift in Sources */,
+				B2391ACE2C6CA56C004F11C4 /* ContentView.swift in Sources */,
+				B2391AEA2C6CE36E004F11C4 /* AuthService.swift in Sources */,
+				B279B68E2C7DC7AD0088B312 /* LoadingView.swift in Sources */,
+				B2391AFB2C6E0EEA004F11C4 /* Bundle+Utils.swift in Sources */,
+				B2391AE22C6CD2FE004F11C4 /* APIEndpoint.swift in Sources */,
+				B21712352C722FF300A775F5 /* Card.swift in Sources */,
+				B2391AF92C6DFB67004F11C4 /* Device+Utils.swift in Sources */,
+				B2391AE52C6CD56E004F11C4 /* NetworkManager.swift in Sources */,
+				B2391ADB2C6CAA4D004F11C4 /* LoginWithFaceIdView.swift in Sources */,
+				B2391AE72C6CD614004F11C4 /* APIError.swift in Sources */,
+				B2391ACC2C6CA56C004F11C4 /* RibPlaygroundApp.swift in Sources */,
+				B2391B002C6E2289004F11C4 /* WalletExtensionUser.swift in Sources */,
+				B2391ADD2C6CAC63004F11C4 /* EnableFaceIdView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B2391AD42C6CA56D004F11C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2391AD52C6CA56D004F11C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2391AD72C6CA56D004F11C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RibPlayground/RibPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RibPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U23AA842P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RibPlayground/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Identify yourself";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rib.RibPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B2391AD82C6CA56D004F11C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RibPlayground/RibPlayground.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RibPlayground/Preview Content\"";
+				DEVELOPMENT_TEAM = 2U23AA842P;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "RibPlayground/Info-Prod.plist";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "Identify yourself";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.rib.RibPlayground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2391AC32C6CA56C004F11C4 /* Build configuration list for PBXProject "RibPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2391AD42C6CA56D004F11C4 /* Debug */,
+				B2391AD52C6CA56D004F11C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2391AD62C6CA56D004F11C4 /* Build configuration list for PBXNativeTarget "RibPlayground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2391AD72C6CA56D004F11C4 /* Debug */,
+				B2391AD82C6CA56D004F11C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2391AC02C6CA56C004F11C4 /* Project object */;
+}
